@@ -6,12 +6,42 @@ body {
 	background: #eee;
 }
 
+.header {
+	background-color: red;
+}
+
 .header-nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	background-color: red;
+	margin: 0 auto;
+    width: 900px;
+    border-left: 1px solid #ccc;
+}
+
+.header-logo {
+	font-weight: bold;
+
 }
 
 .header-list {
 	display: flex;
 	
 }
+
+.header a {
+	display: block;
+	padding: 10px 20px;
+	color: white;	
+	border-right: 1px solid #ccc;
+}
+
+
+li:first-child {
+	border-left: 1px solid #ccc;
+}
+
+.header a:hover {
+	background-color: black;
+}
+

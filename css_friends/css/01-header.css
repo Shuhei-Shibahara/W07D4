@@ -6,6 +6,12 @@ body {
 	background: #eee;
 }
 
-header {
+.header-nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-list {
+	display: flex;
 	
 }
